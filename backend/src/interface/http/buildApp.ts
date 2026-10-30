@@ -12,7 +12,7 @@
  * address and binding the socket is the entry point's job. That is what lets the whole surface,
  * failure paths included, be driven in-process through `app.inject()`.
  *
- * Layering: the HTTP interface layer. It imports the two sibling route modules and the error
+ * Layering: the HTTP interface layer. This is a conflict test change.
  * mapper, never an infrastructure module, so it can wire the port-facing use cases without ever
  * naming how a task is stored.
  */
