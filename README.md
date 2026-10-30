@@ -1,4 +1,4 @@
-# To-Do App
+# To-Do App - Feature Version
 
 A modular, single-user to-do web application: a React and Vite browser interface, a Fastify JSON
 HTTP API, and tasks persisted in a local SQLite file. It is built in layers — domain, application,
